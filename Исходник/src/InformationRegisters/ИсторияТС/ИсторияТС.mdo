@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd3e9af6-57b8-400c-b979-d02993ee8143">
+  <producedTypes>
+    <selectionType typeId="725ed772-ef2a-46f2-bb48-c97aafa07e1a" valueTypeId="f378932c-841a-40ba-b414-6984822ba7c3"/>
+    <listType typeId="fce433a2-74f3-416c-918b-56a0ed945877" valueTypeId="c06b2f68-eac0-4de6-8e4d-d886fa620641"/>
+    <managerType typeId="f6dd63c8-f07d-443c-8397-869e91766934" valueTypeId="c12f0905-e2b5-4770-a296-4c142990a1ce"/>
+    <recordSetType typeId="d6cee8b1-dd42-4235-b08c-4fffaca79f4e" valueTypeId="9675b792-3cb3-4c93-894b-921ee9896c13"/>
+    <recordKeyType typeId="bb2957bb-b731-4aba-a51d-79e921eae963" valueTypeId="a69f6d65-c3df-4749-b0f9-af8de51aec9f"/>
+    <recordType typeId="67230ae5-e997-44af-98cd-f4475bd0e658" valueTypeId="c5c6eba9-b9f9-4c72-9525-b829400d72ee"/>
+    <recordManagerType typeId="2d884954-f696-4cb1-a74b-938ec477e865" valueTypeId="bedbf065-8719-47ab-afe7-c25bb229a205"/>
+  </producedTypes>
+  <name>ИсторияТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>История ТС</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="be95ff6a-1ddd-4d39-82d4-92ddef0c8147">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e8caecdc-ef8c-4c34-a792-aa4ca75c3615">
+    <name>ТранспортныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные средства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="5ce5aa81-e3f2-4c48-95f6-8a8294fd6e6a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

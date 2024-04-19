@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a52748ad-10a9-4d68-b315-9bbc31d7214c">
+  <name>УчетКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет контрагента</value>
+  </synonym>
+  <location>Constant.УчетКонтрагента</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ДокументПоступлениеТоваров1.Attribute.Поставщики</content>
+  <content>Catalog.Поставщики</content>
+</mdclass:FunctionalOption>

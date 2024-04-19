@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81451d4a-8875-4bfc-85cc-0c0205abf6c5">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="10ba8062-b5cc-4278-917f-91370b8e0cbf"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1d4f5184-f870-4009-a91f-4648f388d7ba"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8b5bfeaf-8a5e-4a05-9af1-713994511639"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3c596790-2ae3-457f-9c21-cce568e4a6ed"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="12763833-e43f-4f79-a40c-b7c2fce20fb7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1c0cb4de-f316-4ff1-a6cd-02328ec22f07"/>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Тест1</vendor>
+  <version>1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="bad1047d-b970-4776-a2a5-6153c0b2d363">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <functionalOptions>FunctionalOption.УчетКонтрагента</functionalOptions>
+  <constants>Constant.УчетКонтрагента</constants>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ТоварноТранспортныеНакладные</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ДокументПоступлениеТоваров1</documents>
+  <enums>Enum.ТипТранспортногоСредства</enums>
+  <reports>Report.ОтчетТовары2</reports>
+  <reports>Report.ВедомостьТоварыЗап1</reports>
+  <reports>Report.ВедомостьТоварыРег1</reports>
+  <reports>Report.ОтчетПоАвтоОсн</reports>
+  <informationRegisters>InformationRegister.ИсторияТС</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОборотТовара</accumulationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c49a515-3272-401d-8953-01c60a529933">
+  <producedTypes>
+    <refType typeId="b546fe06-2000-4c76-b500-3317b6b172d5" valueTypeId="23f94f65-7975-4147-bec5-a842e4e9c846"/>
+    <listType typeId="c5b0b6c5-a0d4-486f-b95f-192d0f38949b" valueTypeId="1cfd19e7-0ac8-4147-9be4-cef81158c8b1"/>
+    <managerType typeId="6fe7a3b5-d304-4a18-bd5f-95537d2b5aa7" valueTypeId="04290327-79f0-4afb-93df-a14341c31945"/>
+  </producedTypes>
+  <name>ТипТранспортногоСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип транспортного средства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2c47ed2-6855-445e-aefe-0f0f011ee466">
+    <name>Легковой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35136967-f89e-4daa-aa30-00a086ce132d">
+    <name>Грузовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09edeb49-7ae7-4cf9-b823-105fa45454cf">
+    <name>Специальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
